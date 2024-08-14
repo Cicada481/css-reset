@@ -18,14 +18,18 @@
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-/* Set default body font size to 16px, set system font stack */
+/* Set default body font size to 16px */
+/* Set system font stack */
+/* Add accessible line-height for readability */
 
 body {
     font-size: 1.6rem;
     font-family: var(--system-ui);
+    line-height: 1.5em;
 }
 
-/* Remove underline from links, remove blue color given by agent stylesheet */
+/* Remove underline from links */
+/* Remove blue color given by agent stylesheet */
 
 a {
     text-decoration: none;
