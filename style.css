@@ -1,0 +1,66 @@
+/* Beginning of CSS Reset */
+
+/* Reset box-sizing, margin, border, and padding */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* Set apparent font size to 10px to make calculating font size easier */
+
+html {
+    font-size: 62.5%;
+}
+
+/* Set default body font size to 16px, set system font stack */
+
+body {
+    font-size: 1.6rem;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+/* Remove underline from links, remove blue color given by agent stylesheet */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove list style decoration */
+
+li {
+    list-style-type: none;
+}
+
+/* Make buttons look modern */
+
+button:hover {
+    cursor: pointer;
+}
+
+/* Remove font size given by user agent stylesheet */
+
+button {
+  font-size: inherit;
+}
+
+/* Improve sizing of buttons and embedded content */
+
+img, picture, video, canvas, svg, button {
+    min-height: 0;
+    min-width: 0;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+/* Align cell borders nicely in tables */
+
+table {
+    border-collapse: collapse;
+}
+
+/* End of CSS Reset */
