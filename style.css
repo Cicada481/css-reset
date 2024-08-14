@@ -10,17 +10,19 @@
 }
 
 /* Set apparent font size to 10px to make calculating font size easier */
+/* Store system font stack in a variable */
 
-html {
+:root {
     font-size: 62.5%;
+    --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, 
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 /* Set default body font size to 16px, set system font stack */
 
 body {
     font-size: 1.6rem;
-    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: var(--system-ui);
 }
 
 /* Remove underline from links, remove blue color given by agent stylesheet */
